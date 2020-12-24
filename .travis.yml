@@ -1,4 +1,4 @@
 language: csharp
-solution: DotNetCoreTest.sln
+solution: DotNetCoreTest/DotNetCoreTest.sln
 mono: none
 dotnet: 2.1.502
