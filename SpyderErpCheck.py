@@ -21,7 +21,7 @@ payload = {
 }
 
 def mytest():
-    return True
+    return 0
 
 def month_string_to_number(string):
     m = {
