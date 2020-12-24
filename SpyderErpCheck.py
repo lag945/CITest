@@ -1,14 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 18 10:18:10 2020
-
-@author: laguna
-"""
-
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime as dt
+"""Tests for `notebookc` package."""
+import pytest
+from notebookc import notebookc
 
 
-def mytest():
-    return 0
+def test_convert(capsys):
+    """Correct my_name argument prints"""
+    notebookc.convert("Jill")
+    captured = capsys.readouterr()
+    assert "Jall" in captured.out
