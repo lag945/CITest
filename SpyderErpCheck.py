@@ -20,6 +20,9 @@ payload = {
     'pwd': PASSWORD,
 }
 
+def mytest():
+    return True
+
 def month_string_to_number(string):
     m = {
         'jan': 1,
