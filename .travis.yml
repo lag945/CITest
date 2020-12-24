@@ -4,3 +4,6 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+script:
+  - month_string_to_number('jan')
+  
