@@ -1,6 +1,7 @@
 language: csharp
 mono: none
 dotnet: 3.1
-solution: Quiz001/Quiz001.sln
+solution: Quiz001.sln
 script:
   - dotnet build Quiz001/Quiz001.sln
+  - dotnet test Quiz001/Quiz001.sln
