@@ -1,6 +1,7 @@
 language: csharp
-solution: DotNetCoreTest.sln
 mono: none
 dotnet: 2.1.502
+solution: Quiz001.sln
 script:
-- msbuild /p:Configuration=Release DotNetCoreTest.sln
+  - dotnet restore
+  - dotnet test
