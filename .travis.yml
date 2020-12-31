@@ -3,5 +3,5 @@ mono: none
 dotnet: 2.1.502
 solution: Quiz001.sln
 script:
-  - dotnet restore
+  - dotnet build Quiz001.sln
   - dotnet test
