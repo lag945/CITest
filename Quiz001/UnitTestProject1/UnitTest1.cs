@@ -27,7 +27,7 @@ namespace UnitTestProject1
             bool error = false;
             for (int i = 0; i < 100; i++)
             {
-                if (validateString == Test.GetAnswer2())
+                if (validateString == Test.GetAnswer())
                 {
 
                 }
