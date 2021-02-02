@@ -46,7 +46,7 @@ namespace UnitTestProject1
             {
                 //0.022869482999999996
                 double averageSeconds = sw.Elapsed.TotalSeconds / 100.0;
-                Assert.IsFalse(averageSeconds > 0.001, "速度測試未通過，平均耗時" + averageSeconds.ToString("0.000000") + "秒");
+                Assert.IsFalse(averageSeconds > 0.0000001, "速度測試未通過，平均耗時" + averageSeconds.ToString("0.000000") + "秒");
             }
         }
     }
